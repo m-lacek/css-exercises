@@ -12,13 +12,12 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .content {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   gap: 52px;
 }
 
@@ -26,8 +25,9 @@ img {
   display: flex;
   width: 200px;
   height: auto;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 /* do not edit this footer */
